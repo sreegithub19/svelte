@@ -15,6 +15,9 @@ npx degit sveltejs/template my-svelte-project
 cd my-svelte-project
 npm install
 npm run dev
+
+All in one command for git and Vercel:
+git add . && git commit -m "C" && git push origin main
 ```
 
 Navigate to [localhost:8080](http://localhost:8080). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
